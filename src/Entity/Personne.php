@@ -31,6 +31,11 @@ class Personne
    */
   private $type;
 
+  /*
+   * Constructeur de l'entité Personne.
+   * La valeur de ses attributs dépend de la parité de l'id reçu.
+   */
+
   public function __construct($id, $nom) {
     $this->nom = $nom;
     if ($id % 2 == 0) {

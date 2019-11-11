@@ -11,12 +11,12 @@ class BonjourController extends AbstractController
   /**
    * @Route("/info/{nom}", name="bonjour")
    */
-  public function index($nom = '')
+  public function index($nom = '') // en cas de nom vide, on en choisi un au hasard
   {
     $noms = ['Elisabeth', 'Maria', 'Jack', 'John', 'Fred', 'Clara', 'Brad'];
 
     if ($nom == '') {
-      $reponse = 'Bonjour, inconnu.e. Tu seras ' . $noms[array_rand($noms)] . ' .';
+      $reponse = 'Bonjour, inconnu.e. Tu seras ' . $noms[array_rand($noms)] . '.';
     } elseif ($nom == 'feedtheram') {
       $reponse = 'Vous êtes bien tombé.e.';
     } else {

@@ -10,6 +10,9 @@ class PersonneFixtures extends Fixture
 {
   public function load(ObjectManager $manager)
   {
+
+    // Insère 100 entrées dans la base de donnée feeddb
+
     $noms = ["Elisabeth", "Maria", "Jack", "John", "Fred", "Clara", "Brad"];
 
       for ($i = 1; $i <= 100; $i++) {
