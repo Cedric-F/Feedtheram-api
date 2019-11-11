@@ -13,7 +13,7 @@
 
 `git clone https://github.com/Cedric-F/Feedtheram-api.git`
 
-**Dépendences**
+**Dépendances**
 
 `composer install`
 
