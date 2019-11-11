@@ -15,7 +15,7 @@ class PersonneController extends AbstractController
   public function index($id = 1) // En cas d'absence d'id, il prend la valeur 1
   {
 
-    // Récupère le répertoire (Relation) de l'éntité Prenom
+    // Récupère le répertoire (Relation) correspondant à l'entité Prenom
     $repo = $this->getDoctrine()->getRepository(Personne::class);
 
     // Récupère le tuple grâce à l'id de la requête
