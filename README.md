@@ -24,7 +24,8 @@ Mettre la base de donnée à jour avec
 
 Charger les fixtures dans la BD avec
 `php bin/console doctrine:fixtures:load`
-(Optionel: `--append` pour ne pas purger la base de donnée)
+
+(Optionnel: `--append` pour ne pas purger la base de donnée)
 
 La BD est maintenant à jour avec une centaine d'éléments
 
