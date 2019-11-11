@@ -2,15 +2,15 @@
 
 ## Installation
 
-** Cloner le repo**
+**Cloner le repo**
 
 `git clone https://github.com/Cedric-F/Feedtheram-api.git`
 
-** Dépendences **
+**Dépendences**
 
 `composer install`
 
-** Serveur **
+**Serveur**
 
 `php bin/console server:run api.feedtheram.com:8000`
 
@@ -29,9 +29,9 @@ Les réponses sont au format JSON
 
 Gestion des cors avec le package nelmio/cors
 
-```.env
+```
+.env
 ...
-
 ###> nelmio/cors-bundle ###
 CORS_ALLOW_ORIGIN=^https?://(localhost|127\.0\.0\.1|feedtheram.com)(:[0-9]+)?$
 ###< nelmio/cors-bundle ###
